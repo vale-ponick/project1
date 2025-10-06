@@ -20,8 +20,6 @@
 
 /* Begin PBXFileReference section */
 		584F77F72E938EB9000DF072 /* project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project1; sourceTree = BUILT_PRODUCTS_DIR; };
-		584F78082E939105000DF072 /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
-		584F780B2E939155000DF072 /* File3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -29,6 +27,8 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				folder1/File1.swift,
+				folder2/File2.swift,
+				folder3/File3.swift,
 			);
 			target = 584F77F62E938EB9000DF072 /* project1 */;
 		};
@@ -60,8 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				584F77F92E938EB9000DF072 /* project1 */,
-				584F780A2E93912A000DF072 /* folder3 */,
-				584F78072E9390D1000DF072 /* folder2 */,
 				584F77F82E938EB9000DF072 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,22 +70,6 @@
 				584F77F72E938EB9000DF072 /* project1 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		584F78072E9390D1000DF072 /* folder2 */ = {
-			isa = PBXGroup;
-			children = (
-				584F78082E939105000DF072 /* File2.swift */,
-			);
-			path = folder2;
-			sourceTree = "<group>";
-		};
-		584F780A2E93912A000DF072 /* folder3 */ = {
-			isa = PBXGroup;
-			children = (
-				584F780B2E939155000DF072 /* File3.swift */,
-			);
-			path = folder3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
